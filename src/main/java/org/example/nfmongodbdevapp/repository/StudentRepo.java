@@ -1,6 +1,6 @@
 package org.example.nfmongodbdevapp.repository;
 
-import org.example.nfmongodbdevapp.model.Student;
+import org.example.nfmongodbdevapp.model.entity.Student;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

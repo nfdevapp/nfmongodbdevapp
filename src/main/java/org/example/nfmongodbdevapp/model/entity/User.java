@@ -1,7 +1,8 @@
-package org.example.nfmongodbdevapp.model;
+package org.example.nfmongodbdevapp.model.entity;
 
 import java.util.List;
 
+//Entität / Domain-Objekt
 public record User(String username,
                    String password,
                    String address,

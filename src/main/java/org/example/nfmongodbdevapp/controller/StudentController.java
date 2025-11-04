@@ -1,6 +1,6 @@
 package org.example.nfmongodbdevapp.controller;
 
-import org.example.nfmongodbdevapp.model.Student;
+import org.example.nfmongodbdevapp.model.entity.Student;
 import org.example.nfmongodbdevapp.service.StudentService;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,7 +29,8 @@ public class StudentController {
 
     @PostMapping
     public Student addStudent(@RequestBody Student student) {
-        return  service.addStudent(student);
+        return  null;
+//        return  service.addStudent(student);
     }
 
     @PutMapping("/{id}")
